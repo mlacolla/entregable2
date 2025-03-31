@@ -57,5 +57,4 @@ Los nombres de variables. funciones y objetos son significativos para el context
 //
 Esta aplicación esta diseñada para uso de profesionales psicopedagogía y tiene como objetivo ingresar datos de pacientes a un formulario (Se guardaran en el localstorage) visualizar su carga y eliminar los mismos. 
 
-En la entrega del 15/03/2025 solamente se hara la interfaz parte 1. 
-https://github.com/crcristian97/coder-sabado-js 
+Repositorio a compartir:https://github.com/crcristian97/coder-sabado-js 

@@ -1,0 +1,165 @@
+#leyendasObligatorias{
+    color: red;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f08dc8;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Estilo del contenedor principal */
+      #contenido {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      
+      
+      /* Estilo para el formulario de paciente */
+      #formularioPaciente {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      #formularioPaciente label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: #333;
+      }
+      
+      #formularioPaciente input,
+      #formularioPaciente select,
+      #formularioPaciente textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+      }
+      
+      #formularioPaciente input[type="date"] {
+        width: auto;
+      }
+      
+      #formularioPaciente textarea {
+        resize: vertical;
+      }
+      
+      #formularioPaciente button {
+        background-color: #4ca3af;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+      }
+      
+      #formularioPaciente button:hover {
+        background-color: #a0459e;
+      }
+      
+      #pacientesAgregados {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    
+      
+      
+      #pacientesAgregados h1 {
+        text-align: center;
+        color: #4ca3af;
+      }
+      
+      /* Estilo para cada paciente individual */
+      .paciente {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px;
+      }
+      /* Contenedor de todos los pacientes */
+      #pacientesAgregados {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+      }
+      
+      /* Estilo para cada tarjeta de paciente */
+      .tarjetaPaciente {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: calc(33% - 20px); /* Tres tarjetas por fila */
+        padding: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 20px;
+      }
+      
+      .tarjetaPaciente:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+      
+      /* Información del paciente dentro de la tarjeta */
+      .infoPaciente p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #333;
+      }
+      
+      .infoPaciente p strong {
+        color: #4ca3af;
+        font-weight: bold;
+      }
+      
+      /* Estilo para el botón de eliminación */
+      .botonEliminar {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      
+      .botonEliminar button {
+        background-color: #e74c3c;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      .botonEliminar button:hover {
+        background-color: #c0392b;
+      }
+      
+      /* Agregar una separación entre las tarjetas */
+      hr {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      
